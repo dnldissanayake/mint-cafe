@@ -2532,6 +2532,12 @@ footer {
   border-radius: 20px;
 }
 
+@media screen and (max-width: 575px) {
+  .section-hero .rx-hero-contact .inner-contact {
+    max-width: 250px;
+  }
+}
+
 /* Menu */
 .rx-menu-tabs {
   display: -webkit-box;
