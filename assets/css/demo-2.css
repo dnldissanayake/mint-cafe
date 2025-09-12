@@ -1108,13 +1108,13 @@ header .header-fixed {
 }
 .rx-inner-menu-desk .navbar-toggler {
   display: none;
-  border: 1px solid #fff;
+  border: 1px solid #00528f;
   padding: 5px;
 }
 .rx-inner-menu-desk .navbar-toggler i {
   font-size: 16px;
   font-weight: 500;
-  color: #fff;
+  color: #00528f;
 }
 .rx-inner-menu-desk .rx-main-menu {
   width: 100%;
@@ -1323,7 +1323,7 @@ header .header-fixed {
       -ms-flex-align: center;
           align-items: center;
   font-size: 16px;
-  color: #000;
+  color: #00528f;
   font-weight: 600;
 }
 .rx-mobile-menu .rx-menu-title .rx-close-menu {
@@ -1343,7 +1343,7 @@ header .header-fixed {
   padding: 12px 12px;
   display: block;
   text-transform: capitalize;
-  color: #555555;
+  color: #00528f;
   border: 1px solid #eee;
   border-radius: 10px;
   font-size: 15px;
