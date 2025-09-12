@@ -763,8 +763,8 @@ input::placeholder,
   text-decoration: none;
   padding: 6px 20px;
   line-height: 25px;
-  background-color: transparent;
-  color: #00528f;
+  background-color: #00528f;
+  color: #fff;
   font-size: 15px;
   font-weight: 500;
   border: 1px solid #00528f;
@@ -772,8 +772,8 @@ input::placeholder,
   letter-spacing: 1px;
 }
 .rx-btn-one:hover {
-  color: #fff;
-  background-color: #00528f;
+  color: #00528f;
+  background-color: transparent;
   border-color: #00528f;
 }
 
