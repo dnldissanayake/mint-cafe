@@ -108,10 +108,10 @@
   $(window).on("load resize", function () {
     setTimeout(function () {
       $(".rx-slider .slick-prev").prepend(
-        '<div class="prev-slick-arrow arrow-icon"><span>&#60;</span></div><div class="prev-slick-img slick-thumb-nav"><img src="/prev.jpg" class="img-responsive"></div>'
+        '<div class="prev-slick-arrow arrow-icon"><span>&#60;</span></div>'
       );
       $(".rx-slider .slick-next").append(
-        '<div class="next-slick-arrow arrow-icon"><span>&#62;</span></div><div class="next-slick-img slick-thumb-nav"><img src="/next.jpg" class="img-responsive"></div>'
+        '<div class="next-slick-arrow arrow-icon"><span>&#62;</span>'
       );
       get_prev_slick_img();
       get_next_slick_img();
@@ -385,8 +385,8 @@
     }
   });
 
-   /* Tools Sidebar */
-   $(".rx-tools-sidebar-toggle").on("click", function () {
+  /* Tools Sidebar */
+  $(".rx-tools-sidebar-toggle").on("click", function () {
     $(".rx-tools-sidebar").addClass("open-tools");
     $(".rx-tools-sidebar-overlay").fadeIn();
     $(".rx-tools-sidebar-toggle").hide();
