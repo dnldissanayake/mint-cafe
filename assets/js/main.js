@@ -220,7 +220,7 @@
   /* Blog */
   $(".rx-blog-slider").owlCarousel({
     loop: true,
-    slidesToShow: 4,
+    slidesToShow: 3,
     slidesToScroll: 1,
     smartSpeed: 1000,
     autoplay: false,
@@ -232,14 +232,12 @@
       0: {
         items: 1,
       },
-      480: {
+
+      992: {
         items: 2,
       },
-      992: {
-        items: 3,
-      },
       1200: {
-        items: 4,
+        items: 3,
       },
     },
   });
