@@ -505,7 +505,34 @@ h6 {
   width: 100%;
   height: 400px;
   margin: 0;
-  background-image: url("../img/history/our-story-header.png");
+  background-image: url("../img/history/History-header.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.rx-breadcrumb-image-bluecity {
+  width: 100%;
+  height: 400px;
+  margin: 0;
+  background-image: url("../img/history/blue-city-history-header.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.rx-breadcrumb-image-morocco {
+  width: 100%;
+  height: 400px;
+  margin: 0;
+  background-image: url("../img/history/morocco-usa-history-header.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.rx-breadcrumb-image-university {
+  width: 100%;
+  height: 400px;
+  margin: 0;
+  background-image: url("../img/history/old-univercity-history-header.png");
   background-size: cover;
   background-position: center;
 }
