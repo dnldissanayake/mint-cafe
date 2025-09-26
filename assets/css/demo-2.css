@@ -126,6 +126,13 @@
 }
 
 @font-face {
+  font-family: "BebasNeue", sans-serif;
+  src: url("../fonts/BebasNeue/BebasNeue-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
   font-family: "Poppins", sans-serif;
   src: url("../fonts/poppins/Poppins-BoldItalic.ttf") format("truetype");
   font-weight: 700;
@@ -1897,6 +1904,11 @@ footer {
 .rx-footer-copy {
   background-color: #1c2023;
   padding: 15px 0;
+}
+
+.rx-footer-bottom {
+  background-color: #1c2023;
+  padding: 5px 0;
 }
 
 .rx-footer-inner-contact {
