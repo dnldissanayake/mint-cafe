@@ -517,6 +517,24 @@ h6 {
   background-position: center;
 }
 
+.rx-breadcrumb-image-story {
+  width: 100%;
+  height: 400px;
+  margin: 0;
+  background-image: url("../img/story/Our-Story-Header.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.rx-breadcrumb-image-menu {
+  width: 100%;
+  height: 400px;
+  margin: 0;
+  background-image: url("../img/menu/our-menu-heder.png");
+  background-size: cover;
+  background-position: center;
+}
+
 .rx-breadcrumb-image-bluecity {
   width: 100%;
   height: 400px;
@@ -588,7 +606,7 @@ h6 {
   position: absolute;
   bottom: 0;
   padding: 10px 0;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: #00528f;
   width: 100%;
 }
 
@@ -631,7 +649,7 @@ h6 {
 }
 
 .inner-breadcrumb-contact .rx-banner-breadcrumb .breadcrumb-contact .last-contact ul li a:hover {
-  color: #00528f;
+  color: #477e8d;
 }
 
 .inner-breadcrumb-contact .rx-banner-breadcrumb .breadcrumb-contact .last-contact ul li:last-child:before {
